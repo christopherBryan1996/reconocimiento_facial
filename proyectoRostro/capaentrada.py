@@ -3,7 +3,7 @@ import cv2 as cv
 import os 
 import imutils
 
-modelo='fotosElon'
+modelo='fotosFranklin'
 ruta1='C:/Users/manci/Documents/reconocimiento_facial/proyectoRostro'
 rutacompleta=ruta1 +'/'+modelo
 
@@ -11,7 +11,7 @@ if not os.path.exists(rutacompleta):
     os.makedirs(rutacompleta)
 
 ruidos= cv.CascadeClassifier('C:/Users/manci/Documents/reconocimiento_facial/opencv-master/opencv-master/data/haarcascades/haarcascade_frontalface_default.xml')
-camara=cv.VideoCapture('C:/Users/manci/Documents/reconocimiento_facial/proye1/ElonMusk.mp4')
+camara=cv.VideoCapture('C:/Users/manci/Documents/reconocimiento_facial/proye1/videoauron.mp4')
 
 id=0
 while True:
