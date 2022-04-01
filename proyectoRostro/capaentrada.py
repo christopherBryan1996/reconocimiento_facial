@@ -3,7 +3,7 @@ import cv2 as cv
 import os 
 import imutils
 
-modelo='misfotos2'
+modelo='fotosAngel'
 ruta1='C:/Users/manci/Documents/reconocimiento_facial/proyectoRostro'
 rutacompleta=ruta1 +'/'+modelo
 
